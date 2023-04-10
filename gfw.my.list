@@ -1,0 +1,13 @@
+# MyList && Other
+#1. 
+#DOMAIN,steambroadcast.akamaized.net
+
+#2
+DOMAIN-SUFFIX,ip138.com
+
+#3
+#DOMAIN-KEYWORD,porn
+
+#9
+#IP-CIDR,18.194.0.0/15,no-resolve
+#IP-CIDR,34.224.0.0/12,no-resolve
