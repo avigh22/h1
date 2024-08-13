@@ -7,7 +7,7 @@ DOMAIN-SUFFIX,apple.com,DIRECT
 HOST-SUFFIX,icloud.com,China
 DOMAIN-SUFFIX,icloud-content.com
 HOST-SUFFIX,freezhihu.org,DIRECT
-HOST-SUFFIX,freeweibo.com,PROXY
+HOST-KEYWORD,freeweibo.com,PROXY
 DOMAIN-SUFFIX,bellesa.co
 DOMAIN-SUFFIX,loader.to
 
