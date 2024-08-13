@@ -3,8 +3,8 @@
 #DOMAIN,steambroadcast.akamaized.net
 
 #2
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,apple.com,DIRECT
+DOMAIN-SUFFIX,icloud.com,China
 DOMAIN-SUFFIX,freezhihu.org
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,bellesa.co
