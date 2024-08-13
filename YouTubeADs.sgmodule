@@ -3,7 +3,7 @@
 
 
 [Script]
-YouTube去广告 = type=http-request,pattern=^https?:\/\/.+?\.googlevideo\.com\/.+&(oad|ctier)=(?!A),script-path=https://choler.github.io/Surge/Script/YouTube.js
+YouTube去广告 = type=http-request,pattern=^https?:\/\/.+?\.googlevideo\.com\/.+&(oad|ctier)=(?!A),script-path=https://github.com/avigh22/h1/blob/master/YouTube.js
 
 [MITM]
 hostname = %APPEND% *.googlevideo.com
