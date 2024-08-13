@@ -5,7 +5,7 @@
 #2
 DOMAIN-SUFFIX,apple.com,DIRECT
 HOST-SUFFIX,icloud.com,China
-DOMAIN-SUFFIX,freezhihu.org
+HOST-SUFFIX,freezhihu.org,DIRECT
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,bellesa.co
 DOMAIN-SUFFIX,loader.to
