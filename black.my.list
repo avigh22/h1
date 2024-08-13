@@ -1,0 +1,20 @@
+# MyList && Other
+#1. 
+#DOMAIN,steambroadcast.akamaized.net
+
+#2
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,freezhihu.org
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,bellesa.co
+DOMAIN-SUFFIX,loader.to
+
+#3
+#DOMAIN-KEYWORD,porn
+#DOMAIN-KEYWORD,alibaba
+#DOMAIN-KEYWORD,meituan
+
+#9
+#IP-CIDR,18.194.0.0/15,no-resolve
+#IP-CIDR,34.224.0.0/12,no-resolve
