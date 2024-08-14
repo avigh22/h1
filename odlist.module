@@ -27,7 +27,7 @@ DOMAIN-SUFFIX,icloud-content.com，PROXY
 #3
 HOST-SUFFIX,freezhihu.org,PROXY
 DOMAIN-SUFFIX,freeweibo.com,PROXY
-DOMAIN-SUFFIX,ip138.com,PROXY
+#DOMAIN-SUFFIX,ip138.com,PROXY
 
 #4
 DOMAIN-SUFFIX,bellesa.co,PROXY
