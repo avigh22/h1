@@ -16,16 +16,16 @@ DOMAIN-SUFFIX,cloudvideocdn.taobao.com,REJECT-200
 #DOMAIN-SUFFIX,adashx4ae.ut.taobao.com,REJECT-200
 #DOMAIN-SUFFIX,audid-api-sg.taobao.com,REJECT-200
 
-DOMAIN-SUFFIX,guide-acs.m.taobao.com,REJECT-200
+#DOMAIN-SUFFIX,guide-acs.m.taobao.com,REJECT-200
 DOMAIN-SUFFIX,umengacs.m.taobao.com,REJECT-200
-DOMAIN-SUFFIX,amdcopen.m.taobao.com,REJECT-200
+#DOMAIN-SUFFIX,amdcopen.m.taobao.com,REJECT-200
 DOMAIN-SUFFIX,umengjmacs.m.taobao.com,REJECT-200
-DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT-200
-DOMAIN-SUFFIX,xjp-msgacs.m.taobao.com,REJECT-200
+#DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT-200
+#DOMAIN-SUFFIX,xjp-msgacs.m.taobao.com,REJECT-200
 DOMAIN-SUFFIX,adashx4sg.ut.taobao.com,REJECT-200
 #DOMAIN-SUFFIX,accscdn.m.taobao.com,REJECT-200
 #DOMAIN-SUFFIX,trade-acs.m.taobao.com,REJECT-200
-DOMAIN-SUFFIX,ip.taobao.com,REJECT-200
+#DOMAIN-SUFFIX,ip.taobao.com,REJECT-200
 
 #1. 
 #DOMAIN,steambroadcast.akamaized.net
