@@ -20,12 +20,12 @@ DOMAIN-SUFFIX,audid-api-sg.taobao.com,REJECT
 #DOMAIN,steambroadcast.akamaized.net
 
 #2
-DOMAIN-SUFFIX,apple.com,DIRECT
+DOMAIN-SUFFIX,apple.com,PROXY
 HOST-SUFFIX,icloud.com,PROXY
-DOMAIN-SUFFIX,icloud-content.com，DIRECT
+DOMAIN-SUFFIX,icloud-content.com，PROXY
 HOST-SUFFIX,freezhihu.org,DIRECT
 DOMAIN-SUFFIX,freeweibo.com,DIRECT
-DOMAIN-SUFFIX,ip138.com,DIRECT
+DOMAIN-SUFFIX,ip138.com,PROXY
 DOMAIN-SUFFIX,bellesa.co,PROXY
 DOMAIN-SUFFIX,loader.to,PROXY
 
