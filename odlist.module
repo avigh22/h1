@@ -1,0 +1,31 @@
+#!name=odlist
+#!desc=不白，不黑 odlist
+#!src=https://raw.githubusercontent.com/
+[MITM]
+hostname = %APPEND% *.cloudvideocdn.taobao.com, *.alicdn.com, 
+
+[Rule]
+#0 淘宝视频
+# URL-REGEX,^https?:\/\/.*cloudvideocdn\.taobao\.com\/.*\.mp4.*,REJECT
+DOMAIN-SUFFIX,cloudvideocdn.taobao.com,REJECT
+
+#0 淘宝其他
+DOMAIN-SUFFIX,acs.m.taobao.com,REJECT
+DOMAIN-SUFFIX,agoo-report.m.taobao.com,REJECT
+DOMAIN-SUFFIX,xjp-jmacs.m.taobao.com,REJECT
+DOMAIN-SUFFIX,adashx4ae.ut.taobao.com,REJECT
+DOMAIN-SUFFIX,audid-api-sg.taobao.com,REJECT
+
+#1. 
+#DOMAIN,steambroadcast.akamaized.net
+
+#2
+DOMAIN-SUFFIX,apple.com,DIRECT
+HOST-SUFFIX,icloud.com,PROXY
+DOMAIN-SUFFIX,icloud-content.com，DIRECT
+HOST-SUFFIX,freezhihu.org,DIRECT
+DOMAIN-SUFFIX,freeweibo.com,DIRECT
+DOMAIN-SUFFIX,ip138.com,DIRECT
+DOMAIN-SUFFIX,bellesa.co,PROXY
+DOMAIN-SUFFIX,loader.to,PROXY
+
