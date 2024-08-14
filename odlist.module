@@ -23,9 +23,13 @@ DOMAIN-SUFFIX,audid-api-sg.taobao.com,REJECT
 DOMAIN-SUFFIX,apple.com,PROXY
 HOST-SUFFIX,icloud.com,PROXY
 DOMAIN-SUFFIX,icloud-content.com，PROXY
-HOST-SUFFIX,freezhihu.org,DIRECT
-DOMAIN-SUFFIX,freeweibo.com,DIRECT
+
+#3
+HOST-SUFFIX,freezhihu.org,PROXY
+DOMAIN-SUFFIX,freeweibo.com,PROXY
 DOMAIN-SUFFIX,ip138.com,PROXY
+
+#4
 DOMAIN-SUFFIX,bellesa.co,PROXY
 DOMAIN-SUFFIX,loader.to,PROXY
 
