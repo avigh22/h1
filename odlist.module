@@ -48,3 +48,9 @@ DOMAIN-SUFFIX,freeweibo.com,PROXY
 DOMAIN-SUFFIX,bellesa.co,PROXY
 DOMAIN-SUFFIX,loader.to,PROXY
 
+[URL Rewrite]
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad _ REJECT-IMG
+^https?://(www.)?g.cn https://www.google.com 302
+^https?://(www.)?google.cn https://www.google.com 302
+
+
