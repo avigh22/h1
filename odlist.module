@@ -6,8 +6,8 @@ hostname = %APPEND% *.cloudvideocdn.taobao.com, *.alicdn.com,
 
 [Rule]
 #0 淘宝视频
-# URL-REGEX,^https?:\/\/.*cloudvideocdn\.taobao\.com\/.*\.mp4.*,REJECT-200
-DOMAIN-SUFFIX,cloudvideocdn.taobao.com,REJECT-200
+URL-REGEX,^https?:\/\/.*cloudvideocdn\.taobao\.com\/.*\.mp4.*,REJECT-200
+#DOMAIN-SUFFIX,cloudvideocdn.taobao.com,REJECT-200
 
 #0 淘宝其他
 #DOMAIN-SUFFIX,acs.m.taobao.com,REJECT-200
@@ -22,7 +22,7 @@ DOMAIN-SUFFIX,umengacs.m.taobao.com,REJECT-200
 DOMAIN-SUFFIX,umengjmacs.m.taobao.com,REJECT-200
 #DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT-200
 #DOMAIN-SUFFIX,xjp-msgacs.m.taobao.com,REJECT-200
-DOMAIN-SUFFIX,adashx4sg.ut.taobao.com,REJECT-200
+#DOMAIN-SUFFIX,adashx4sg.ut.taobao.com,REJECT-200
 #DOMAIN-SUFFIX,accscdn.m.taobao.com,REJECT-200
 #DOMAIN-SUFFIX,trade-acs.m.taobao.com,REJECT-200
 #DOMAIN-SUFFIX,ip.taobao.com,REJECT-200
@@ -38,7 +38,6 @@ DOMAIN-SUFFIX,icloud-content.com，PROXY
 DOMAIN-SUFFIX,ulogs.umengcloud.com,REJECT-200
 DOMAIN-SUFFIX,gss3.bdstatic.com,REJECT-200
 
-
 #3
 HOST-SUFFIX,freezhihu.org,PROXY
 DOMAIN-SUFFIX,freeweibo.com,PROXY
@@ -52,5 +51,3 @@ DOMAIN-SUFFIX,loader.to,PROXY
 ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad _ REJECT-IMG
 ^https?://(www.)?g.cn https://www.google.com 302
 ^https?://(www.)?google.cn https://www.google.com 302
-
-
